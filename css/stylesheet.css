@@ -20,7 +20,11 @@
 }
 
 #current_summary{
-    font-size: 3em;
+    font-size: 2.5em;
+}
+
+#location{
+    font-size: 1.5em;
 }
 
 .content{
