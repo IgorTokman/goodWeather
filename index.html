@@ -16,6 +16,7 @@
 
 <div data-role="page">
 
+    <!--Side panel for city selection-->
     <div data-role="panel" id="left-panel" data-theme="c">
         <ul data-role="listview" data-theme="d">
             <li data-icon="delete"><a href="#" data-rel="close">Close</a></li>
@@ -27,11 +28,13 @@
         </ul>
     </div><!-- /panel -->
 
+    <!--Page header-->
     <div data-role="header" data-position="fixed" data-theme="c">
         <h1>Good Weather</h1>
         <a href="#left-panel" data-icon="bars" data-role="button" data-iconpos="notext" data-iconshadow="false">Menu</a>
     </div><!-- /header -->
 
+    <!--Contains the main page content-->
     <div data-role="content" class="content">
         <h1 id="current_temp" class="icon" data-icon=""></h1>
         <p id="current_summary"></p>
